@@ -9,9 +9,15 @@ services:
       - 1433
     ports:
       - 1433:1433
+    volumes:
+      - db_data:/var/opt/mssql/data
+
   redis:
     image: redis:6.2-alpine
     expose:
       - 6379
     ports:
       - 6379:6379
+
+volumes:
+  db_data:
