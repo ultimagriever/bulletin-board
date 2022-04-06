@@ -1,4 +1,4 @@
-namespace BulletinBoard.Models;
+namespace BulletinBoard.ViewModels;
 
 public class ErrorViewModel
 {

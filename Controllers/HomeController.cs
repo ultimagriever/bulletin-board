@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using BulletinBoard.Models;
+using BulletinBoard.ViewModels;
 
 namespace BulletinBoard.Controllers;
 
